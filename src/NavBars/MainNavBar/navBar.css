@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+nav {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #11091A;
+    display: flex;
+    height: 94px;
+    align-items: center;
+    justify-content: space-between;
+    /* Maybe delete this later on */
+    margin-top: 15px;
+}
+
+.sahil-logo {
+    font-family: 'Grape Nuts';
+    color: #FFF;
+    font-size: 38.362px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.151px;
+}
+
+@media (max-width: 668px) {
+    .sahil-logo {
+        margin-left: 15px;
+    }
+}
+
+/* Normal state */
+.say-hello-btn {
+    position: relative;
+    width: 144.97px;
+    height: 57.529px;
+    transform: rotate(-0.108deg);
+    flex-shrink: 0;
+    border-radius: 60.706px;
+    border: 1.98px solid #9A12F6;
+    background-color: transparent;
+    overflow: hidden;
+    color: #000;
+    cursor: pointer;
+    /* Text color */
+}
+
+/* Text styling */
+.say-hello-btn span {
+    position: relative;
+    z-index: 1;
+    /* Ensure the text is above other elements */
+}
+
+/* Create a pseudo-element for the gradient overlay */
+.say-hello-btn::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(to top right, #9A12F6 50%, #9A12F6 50%);
+    transition: top 0.3s ease-in-out;
+    z-index: 0;
+    /* Set a lower z-index to keep it below the text */
+}
+
+/* Hover state */
+.say-hello-btn:hover::before {
+    top: 0;
+}
+
+
+@media (max-width: 668px) {
+    .say-hello-btn {
+        margin-right: 15px;
+    }
+}
+
+.say-hello-text {
+    transform: rotate(-0.108deg);
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.54px;
+    font-size: 16px;
+}

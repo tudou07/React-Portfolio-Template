@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.home-page {
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.sahil-rai-heading {
+    position: relative;
+    margin-top: 0px;
+    margin-top: 46px;
+    font-family: 'Montserrat';
+    font-size: 92px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(180deg, #FFF 2.28%, rgba(255, 255, 255, 0.49) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.line-container {
+    text-align: left;
+    margin-top: 81.28px;
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    height: 50%;
+}
+
+.line {
+    width: 705px;
+    height: 2px;
+    background: linear-gradient(90deg, #9712FF 0%, rgba(255, 15, 15, 0.00) 100%);
+    flex-shrink: 1;
+}
+
+.line-container-parent {
+    width: 100%;
+    margin-top: 35.28px;
+}
+
+.line-container-child {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.left-line, .right-line {
+    height: 2px;
+    flex-grow: 1;
+}
+
+.left-line {
+    background: linear-gradient(90deg, #9712FF 0%, rgba(255, 14.88, 14.88, 0) 100%);
+    margin-left: 70px;
+}
+
+.right-line {
+    background: linear-gradient(270deg, #9712FF 0%, rgba(255, 14.88, 14.88, 0) 100%);
+    margin-right: 70px;
+}
+
+.circular-button {
+    cursor: pointer;
+}
+
+.background-text {
+    position: absolute;
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .line-container {
+        width: 80%;
+        margin-top: 20px;
+    }
+    
+    .sahil-rai-heading {
+        font-size: 10vw;
+    }
+    
+    .line {
+        width: 80%;
+    }
+    
+    .background-text {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+.typing-text {
+    text-align: start;
+    font-family: 'Poppins';
+    font-size: 197.169px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: transparent; 
+    background-color: transparent; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 3.8px #343137;
+    transform: translateY(-20px);
+    z-index: -1;
+    overflow: hidden;
+}
+
+.color-text {
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari */
+    color: transparent; /* Hide the actual text color */
+    background-image: linear-gradient(90deg, #E9A560 0%, #E257B3 100%);
+}
+
+.my-bio-line {
+    position: relative;
+    margin-top: 23px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
+.pic-and-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 81px;
+    margin-top: 88px;
+    z-index: 2;
+}
+
+.pic {
+    display: flex;
+    width: 232.181px;
+    height: 232.181px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    
+    border-radius: 967.423px;
+    background: #7510F7;
+}
+
+.download-cv-button {
+    color: #FFF;
+    font-family: 'Poppins';
+    border: 0px;
+    font-size: 18.808px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.752px;
+    width: 216.478px;
+    height: 62.013px;
+    flex-shrink: 0;
+    border-radius: 13.132px;
+    background: linear-gradient(136deg, #9712FF 0%, #9712FF 0.01%, rgba(255, 34, 48, 0.92) 95.31%, rgba(52, 6, 6, 0.95) 97.92%);
+}
+
+.my-main-pic {
+    display: flex;
+    width: 232.181px;
+    height: 232.181px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 967.423px;
+    background: #7510F7;
+}
+
+/* Import fonts (you can keep them outside media queries) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/* Default styles for all screen sizes */
+.home-page {
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.sahil-rai-heading {
+    position: relative;
+    margin-top: 0px;
+    margin-top: 3vw; /* Responsive margin using viewport width */
+    font-family: 'Montserrat';
+    font-size: 6vw; /* Responsive font size using viewport width */
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(180deg, #FFF 2.28%, rgba(255, 255, 255, 0.49) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2.5vw; /* Responsive margin using viewport width */
+    text-align: center;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768px */
+    .line-container {
+        width: 80%; /* Adjust the width as needed */
+        margin-top: 5vw; /* Responsive margin using viewport width */
+    }
+    
+    .typing-text {
+        font-size: 10vw; /* Responsive font size using viewport width */
+    }
+    
+    .my-bio-line {
+        font-size: 3vw; /* Responsive font size using viewport width */
+    }
+    
+    .pic-and-button {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        margin-top: 5vw; /* Responsive margin using viewport width */
+    }
+    
+    .pic, .my-main-pic {
+        width: 40vw; /* Responsive width using viewport width */
+        height: 40vw; /* Responsive height using viewport width */
+    }
+    
+    .download-cv-button {
+        width: 60%; /* Adjust the width as needed */
+        font-size: 3vw; /* Responsive font size using viewport width */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adjust styles for screens with a maximum width of 480px (even smaller screens) */
+    .sahil-rai-heading {
+        font-size: 8vw; /* Responsive font size using viewport width */
+    }
+    
+    .line-container {
+        width: 90%; /* Adjust the width as needed */
+        margin-top: 10vw; /* Responsive margin using viewport width */
+    }
+    
+    .typing-text {
+        font-size: 14vw; /* Responsive font size using viewport width */
+    }
+    
+    .my-bio-line {
+        font-size: 4vw; /* Responsive font size using viewport width */
+    }
+    
+    .pic, .my-main-pic {
+        width: 60vw; /* Responsive width using viewport width */
+        height: 60vw; /* Responsive height using viewport width */
+    }
+    
+    .download-cv-button {
+        width: 80%; /* Adjust the width as needed */
+        font-size: 4vw; /* Responsive font size using viewport width */
+    }
+}
+
+.cursor {
+    color: #343137;
+}

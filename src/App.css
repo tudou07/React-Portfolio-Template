@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  background-color: #11091ac4;
+  overflow-x: hidden;
+}
+
+.page-body{
+  color: #FFF;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

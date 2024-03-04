@@ -1,0 +1,143 @@
+/* Footer.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.footer-container {
+    background-color: #1A0E2B;
+    padding: 40px;
+    text-align: center;
+}
+
+.footer-heading {
+    font-style: normal;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: normal;
+    font-family: 'Poppins';
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: start;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+/* Adjust the heading size for smaller screens */
+@media screen and (max-width: 800px) {
+    .footer-heading {
+        font-size: 36px;
+    }
+}
+
+.text1 {
+    color: #E5B76F;
+    margin: 0%;
+}
+
+.text2 {
+    color: #6C68EB;
+    margin: 0%;
+}
+
+.text3 {
+    color: #AD85D8;
+    margin: 0%;
+}
+
+.footer-description {
+    margin-top: 40px;
+    width: 100%;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.footer-name {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: normal;
+    font-style: normal;
+}
+
+.footer-content {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    align-items: center;
+}
+
+.social-links a {
+    margin: 0 10px; /* Add space around each icon */
+}
+
+/* If you want to remove the margin on the last icon */
+.social-links a:last-child {
+    margin-right: 0;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-card {
+    box-shadow: 2px 0px 13px rgba(0, 0, 0, 0.25); /* Remove quotes around box-shadow property values */
+    align-items: center;
+    display: flex;
+    column-gap: 8px;
+    margin: 30px; /* Add margin to separate contact cards */
+}
+
+.card-content {
+    color: #FFF;
+    text-align: start;
+    line-height: 1.5;
+    letter-spacing: 0.88px;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.contact-card-heading {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.contact-card-description {
+    color: var(--green, #D18473);
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.copyright {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.read-more {
+    color: var(--green, #D18473);
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+}
